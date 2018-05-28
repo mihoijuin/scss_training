@@ -1,18 +1,5 @@
 @import "variables";
-
-* {
-  box-sizing: border-box;
-}
-
-li {
-  list-style: none;
-}
-
-body {
-  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
-}
-
-.header-container {
+@mixin topbottom {
   height: 100px;
   background-color: $pcl_color;
   .logo {
@@ -31,6 +18,64 @@ body {
   }
 }
 
+@mixin btn {
+  display: inline-block;
+  color: white;
+  background-color: darken($pcl_color,10%);
+  opacity: 0.7;
+  padding: 15px 40px;
+  border-radius: 10px;
+  margin: 20px 0;
+
+  &:hover {
+    opacity: 1;
+    font-size: 17px;
+  }
+}
+
+@mixin sns($color){
+  display: inline-block;
+  background-color: $color;
+  color: white;
+  border-radius: 50%;
+  padding: 7px 10px;
+
+  &:hover {
+    background-color: darken($color, 10%)
+  }
+}
+
+@mixin container {
+  margin: 80px auto;
+  width: 80%;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "arial unicode ms", "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
+
+.bold {
+  font-weight: bold;
+  color: darken(pink, 20%);
+}
+
+.header-container {
+  @include topbottom;
+}
+
 .top-wrapper {
   width: 100%;
   margin: 0 auto;
@@ -38,6 +83,53 @@ body {
   padding: 50px 30px;
 
   h1 {
-    
+    font-size: 45px;
+    margin-bottom: 40px;
   }
+}
+
+.main-wrapper {
+  margin: 100px 0;
+  padding: 0 60px;
+
+  h2 {
+    font-size: 40px;
+    border-bottom: dashed 5px lighten($pcl_color, 20%);
+    padding-bottom: 15px;
+
+    &.align-right {
+      text-align: right;
+    }
+  }
+
+  .container {
+    @include container;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+
+  .btn {
+    @include btn;
+  }
+
+  .twitter {
+    @include sns($twitter);
+  }
+}
+
+.message-wrapper {
+  background-color: lighten(#666666, 5%);
+  color: white;
+  padding: 50px 40px;
+
+  .container {
+    @include container;
+  }
+
+  .btn {
+    @include btn;
+  }
+
 }

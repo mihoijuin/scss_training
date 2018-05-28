@@ -4,8 +4,15 @@
 li {
   list-style: none; }
 
+a {
+  text-decoration: none; }
+
 body {
-  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif; }
+  font-family: "arial unicode ms", "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif; }
+
+.bold {
+  font-weight: bold;
+  color: #ff5a77; }
 
 .header-container {
   height: 100px;
@@ -25,5 +32,63 @@ body {
   margin: 0 auto;
   text-align: center;
   padding: 50px 30px; }
+  .top-wrapper h1 {
+    font-size: 45px;
+    margin-bottom: 40px; }
+
+.main-wrapper {
+  margin: 100px 0;
+  padding: 0 60px; }
+  .main-wrapper h2 {
+    font-size: 40px;
+    border-bottom: dashed 5px #84c2ff;
+    padding-bottom: 15px; }
+    .main-wrapper h2.align-right {
+      text-align: right; }
+  .main-wrapper .container {
+    margin: 80px auto;
+    width: 80%;
+    text-align: center; }
+  .main-wrapper h3 {
+    font-size: 25px; }
+  .main-wrapper .btn {
+    display: inline-block;
+    color: white;
+    background-color: #0077ea;
+    opacity: 0.7;
+    padding: 15px 40px;
+    border-radius: 10px;
+    margin: 20px 0; }
+    .main-wrapper .btn:hover {
+      opacity: 1;
+      font-size: 17px; }
+  .main-wrapper .twitter {
+    display: inline-block;
+    background-color: #00aced;
+    color: white;
+    border-radius: 50%;
+    padding: 7px 10px; }
+    .main-wrapper .twitter:hover {
+      background-color: #0087ba; }
+
+.message-wrapper {
+  background-color: #737373;
+  color: white;
+  padding: 50px 40px; }
+  .message-wrapper .container {
+    margin: 80px auto;
+    width: 80%;
+    text-align: center; }
+  .message-wrapper .btn {
+    display: inline-block;
+    color: white;
+    background-color: #0077ea;
+    opacity: 0.7;
+    padding: 15px 40px;
+    border-radius: 10px;
+    margin: 20px 0; }
+    .message-wrapper .btn:hover {
+      opacity: 1;
+      font-size: 17px; }
 
 /*# sourceMappingURL=stylesheet.css.map */
