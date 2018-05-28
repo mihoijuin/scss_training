@@ -122,7 +122,7 @@ body {
 .message-wrapper {
   background-color: lighten(#666666, 5%);
   color: white;
-  padding: 50px 40px;
+  padding: 20px 0;
 
   .container {
     @include container;
@@ -132,4 +132,16 @@ body {
     @include btn;
   }
 
+  .twitter {
+    @include sns($twitter);
+  }
+}
+
+.footer-container {
+  @include topbottom;
+  .copyright {
+    float: right;
+    margin-right: 10px;
+    margin-top: 60px;
+  }
 }
