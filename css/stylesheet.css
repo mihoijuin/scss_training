@@ -1,3 +1,29 @@
+* {
+  box-sizing: border-box; }
 
+li {
+  list-style: none; }
+
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif; }
+
+.header-container {
+  height: 100px;
+  background-color: #1E90FF; }
+  .header-container .logo img {
+    height: 90px;
+    margin-top: 10px;
+    padding: 5px;
+    float: left; }
+  .header-container .logo p {
+    float: left;
+    margin-top: 60px;
+    font-size: 20px; }
+
+.top-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px 30px; }
 
 /*# sourceMappingURL=stylesheet.css.map */
