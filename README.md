@@ -1,0 +1,2 @@
+# scss_training
+以前作ったLP(pcl_lp_porin)のCSSをscss記法に置き換えてscssの練習する
