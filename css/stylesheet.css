@@ -21,50 +21,49 @@ body {
   height: 100px;
   background-color: #1E90FF; }
   .header-container .logo img {
-    height: 90px;
-    margin-top: 10px;
-    padding: 5px;
+    height: 5em;
+    margin-top: 1em;
+    padding: 0.1em;
     float: left; }
   .header-container .logo p {
     float: left;
-    margin-top: 60px;
-    font-size: 20px; }
+    margin-top: 2.5em;
+    font-size: 1.3em; }
 
 .top-wrapper {
   width: 100%;
-  margin: 0 auto;
-  text-align: center;
-  padding: 50px 30px; }
+  margin: 5em auto;
+  text-align: center; }
   .top-wrapper h1 {
-    font-size: 45px;
-    margin-bottom: 40px; }
+    font-size: 3em;
+    margin-bottom: 0.8em; }
 
 .main-wrapper {
-  margin: 100px 0;
-  padding: 0 60px; }
+  margin: 8em 0;
+  padding: 0 2.5em; }
   .main-wrapper h2 {
-    font-size: 40px;
-    border-bottom: dashed 5px #84c2ff;
-    padding-bottom: 15px; }
+    font-size: 3.5em;
+    border-bottom: dashed 0.07em #84c2ff;
+    padding-bottom: 0.2em; }
     .main-wrapper h2.align-right {
       text-align: right; }
   .main-wrapper .container {
-    margin: 80px auto;
+    margin: 5em auto;
     width: 80%;
     text-align: center; }
   .main-wrapper h3 {
-    font-size: 25px; }
+    font-size: 1.7em; }
   .main-wrapper .btn {
     display: inline-block;
     color: white;
     background-color: #0077ea;
     opacity: 0.7;
-    padding: 15px 40px;
-    border-radius: 10px;
-    margin: 20px 0; }
+    padding: 1em 2.5em;
+    border-radius: 0.8em;
+    margin: 1.5em 0; }
     .main-wrapper .btn:hover {
       opacity: 1;
-      font-size: 17px; }
+      font-size: 1.04em; }
   .main-wrapper .twitter {
     display: inline-block;
     background-color: #00aced;
@@ -77,9 +76,9 @@ body {
 .message-wrapper {
   background-color: #737373;
   color: white;
-  padding: 20px 0; }
+  padding: 1em 0; }
   .message-wrapper .container {
-    margin: 80px auto;
+    margin: 5em auto;
     width: 80%;
     text-align: center; }
   .message-wrapper .btn {
@@ -87,12 +86,12 @@ body {
     color: white;
     background-color: #0077ea;
     opacity: 0.7;
-    padding: 15px 40px;
-    border-radius: 10px;
-    margin: 20px 0; }
+    padding: 1em 2.5em;
+    border-radius: 0.8em;
+    margin: 1.5em 0; }
     .message-wrapper .btn:hover {
       opacity: 1;
-      font-size: 17px; }
+      font-size: 1.04em; }
   .message-wrapper .twitter {
     display: inline-block;
     background-color: #00aced;
@@ -106,17 +105,17 @@ body {
   height: 100px;
   background-color: #1E90FF; }
   .footer-container .logo img {
-    height: 90px;
-    margin-top: 10px;
-    padding: 5px;
+    height: 5em;
+    margin-top: 1em;
+    padding: 0.1em;
     float: left; }
   .footer-container .logo p {
     float: left;
-    margin-top: 60px;
-    font-size: 20px; }
+    margin-top: 2.5em;
+    font-size: 1.3em; }
   .footer-container .copyright {
     float: right;
-    margin-right: 10px;
-    margin-top: 60px; }
+    margin-right: 0.5em;
+    margin-top: 4em; }
 
 /*# sourceMappingURL=stylesheet.css.map */
