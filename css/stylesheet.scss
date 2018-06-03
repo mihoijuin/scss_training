@@ -1,14 +1,14 @@
 @import "variables";
 @mixin topbottom {
-  height: 100px;
+  height: 6.8em;
   background-color: $pcl_color;
   //どこが親要素としてemが計算されてるのかが謎
   //100pxが親要素だと思っていたので0.9emが90pxになると思ったがどうやら違う
   .logo {
     img {
-      height: 5em;
-      margin-top: 1em;
-      padding: 0.1em;
+      height: 6em;
+      margin-top: 0.5em;
+      padding: 0.2em;
       float: left;
     }
 
@@ -48,8 +48,8 @@
 }
 
 @mixin container {
-  margin: 5em auto;
-  width: 80%;
+  margin: 4.5em auto;
+  width: 100%;
   text-align: center;
 }
 
@@ -71,6 +71,7 @@ p {
 
 body {
   font-family: "arial unicode ms", "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+  margin: 0;
 }
 
 .bold {
@@ -97,18 +98,20 @@ body {
   margin: 8em 0;
   padding: 0 2.5em;
 
+  .container {
+    @include container;
+  }
+
   h2 {
     font-size: 3.5em;
     border-bottom: dashed 0.07em lighten($pcl_color, 20%);
     padding-bottom: 0.2em;
+    margin: 1.5em 0;
+    text-align: left;
 
     &.align-right {
       text-align: right;
     }
-  }
-
-  .container {
-    @include container;
   }
 
   h3 {
