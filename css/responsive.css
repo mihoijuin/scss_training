@@ -1,3 +1,16 @@
+@media (max-width: 670px) {
+  p {
+    text-align: left;
+    font-size: 0.9em; }
 
+  .header-container {
+    height: 5em; }
+    .header-container .logo img {
+      height: 4.5em; }
+    .header-container .logo p {
+      font-size: 1em; }
+
+  .top-wrapper h1 {
+    font-size: 2em; } }
 
 /*# sourceMappingURL=responsive.css.map */

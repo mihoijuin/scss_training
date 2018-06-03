@@ -49,6 +49,7 @@
 
 @mixin container {
   margin: 4.5em auto;
+  padding: 0 2.5em;
   width: 100%;
   text-align: center;
 }
@@ -85,8 +86,11 @@ body {
 
 .top-wrapper {
   width: 100%;
-  margin: 5em auto;
   text-align: center;
+
+  .container {
+    @include container;
+  }
 
   h1 {
     font-size: 3em;
@@ -96,7 +100,6 @@ body {
 
 .main-wrapper {
   margin: 8em 0;
-  padding: 0 2.5em;
 
   .container {
     @include container;

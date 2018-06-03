@@ -1,0 +1,30 @@
+@media(max-width:670px) {
+  @mixin topbottom {
+    height: 5em;
+    .logo {
+      img {
+        height: 4.5em
+      }
+      p {
+        font-size: 1em;
+      }
+    }
+
+  }
+
+  p {
+    text-align: left;
+    font-size: 0.9em;
+  }
+
+  .header-container {
+    @include topbottom;
+  }
+
+  .top-wrapper {
+    h1 {
+      font-size: 2em;
+    }
+  }
+
+}
