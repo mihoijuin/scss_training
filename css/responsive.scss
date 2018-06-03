@@ -3,13 +3,12 @@
     height: 5em;
     .logo {
       img {
-        height: 4.5em
+        height: 4.5em;
       }
       p {
         font-size: 1em;
       }
     }
-
   }
 
   p {
@@ -27,4 +26,29 @@
     }
   }
 
+  .main-wrapper {
+    h2 {
+      font-size: 2em;
+    }
+    h3 {
+      font-size: 1.2em;
+    }
+    .tw-txt {
+      text-align: center;
+    }
+  }
+
+  .message-wrapper {
+    p {
+      text-align: center;
+    }
+  }
+
+  .footer-container {
+    @include topbottom;
+    .copyright {
+      font-size: 0.3em;
+      margin-top: 5em;
+    }
+  }
 }

@@ -11,6 +11,26 @@
       font-size: 1em; }
 
   .top-wrapper h1 {
-    font-size: 2em; } }
+    font-size: 2em; }
+
+  .main-wrapper h2 {
+    font-size: 2em; }
+  .main-wrapper h3 {
+    font-size: 1.2em; }
+  .main-wrapper .tw-txt {
+    text-align: center; }
+
+  .message-wrapper p {
+    text-align: center; }
+
+  .footer-container {
+    height: 5em; }
+    .footer-container .logo img {
+      height: 4.5em; }
+    .footer-container .logo p {
+      font-size: 1em; }
+    .footer-container .copyright {
+      font-size: 0.3em;
+      margin-top: 5em; } }
 
 /*# sourceMappingURL=responsive.css.map */
