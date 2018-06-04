@@ -8,7 +8,8 @@ a {
   text-decoration: none; }
 
 p {
-  line-height: 2em; }
+  line-height: 2em;
+  font-size: 1.4em; }
 
 body {
   font-family: "arial unicode ms", "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
@@ -18,34 +19,34 @@ body {
   font-weight: bold;
   color: #ff5a77; }
 
-.header-container {
-  height: 6.8em;
+header {
+  height: 130px;
   background-color: #1E90FF; }
-  .header-container .logo img {
-    height: 6em;
+  header .logo img {
+    height: 7em;
     margin-top: 0.5em;
     padding: 0.2em;
     float: left; }
-  .header-container .logo p {
+  header .logo p {
     float: left;
     margin-top: 2.5em;
-    font-size: 1.3em; }
+    font-size: 1.5em; }
 
 .top-wrapper {
   width: 100%;
   text-align: center; }
-  .top-wrapper .container {
+  .top-wrapper .top-message {
     margin: 4.5em auto;
     padding: 0 2em;
     width: 100%;
     text-align: center; }
   .top-wrapper h1 {
-    font-size: 3em;
+    font-size: 3.5em;
     margin-bottom: 0.8em; }
 
 .main-wrapper {
   margin: 8em 0; }
-  .main-wrapper .container {
+  .main-wrapper .about, .main-wrapper .activity, .main-wrapper .join {
     margin: 4.5em auto;
     padding: 0 2em;
     width: 100%;
@@ -65,18 +66,18 @@ body {
     color: white;
     background-color: #0077ea;
     opacity: 0.7;
-    padding: 1em 2.5em;
+    padding: 1.2em 2.5em;
     border-radius: 0.8em;
     margin: 1.5em 0; }
     .main-wrapper .btn:hover {
       opacity: 1;
-      font-size: 1.04em; }
+      font-size: 1.1em; }
   .main-wrapper .twitter {
     display: inline-block;
     background-color: #00aced;
     color: white;
     border-radius: 50%;
-    padding: 7px 10px; }
+    padding: 0.8em 1em; }
     .main-wrapper .twitter:hover {
       background-color: #0087ba; }
 
@@ -84,7 +85,7 @@ body {
   background-color: #737373;
   color: white;
   padding: 1em 0; }
-  .message-wrapper .container {
+  .message-wrapper .message {
     margin: 4.5em auto;
     padding: 0 2em;
     width: 100%;
@@ -94,36 +95,36 @@ body {
     color: white;
     background-color: #0077ea;
     opacity: 0.7;
-    padding: 1em 2.5em;
+    padding: 1.2em 2.5em;
     border-radius: 0.8em;
     margin: 1.5em 0; }
     .message-wrapper .btn:hover {
       opacity: 1;
-      font-size: 1.04em; }
+      font-size: 1.1em; }
   .message-wrapper .twitter {
     display: inline-block;
     background-color: #00aced;
     color: white;
     border-radius: 50%;
-    padding: 7px 10px; }
+    padding: 0.8em 1em; }
     .message-wrapper .twitter:hover {
       background-color: #0087ba; }
 
-.footer-container {
-  height: 6.8em;
+footer {
+  height: 130px;
   background-color: #1E90FF; }
-  .footer-container .logo img {
-    height: 6em;
+  footer .logo img {
+    height: 7em;
     margin-top: 0.5em;
     padding: 0.2em;
     float: left; }
-  .footer-container .logo p {
+  footer .logo p {
     float: left;
     margin-top: 2.5em;
-    font-size: 1.3em; }
-  .footer-container .copyright {
+    font-size: 1.5em; }
+  footer .copyright {
     float: right;
-    margin-right: 0.5em;
-    margin-top: 4em; }
+    padding-right: 0.5em;
+    padding-top: 2.2em; }
 
 /*# sourceMappingURL=stylesheet.css.map */
