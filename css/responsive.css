@@ -1,14 +1,10 @@
 @media (max-width: 670px) {
+  header img, footer img {
+    height: 4.5em; }
+
   p {
     text-align: left;
     font-size: 0.9em; }
-
-  .header-container {
-    height: 50px; }
-    .header-container .logo img {
-      height: 0.1em; }
-    .header-container .logo p {
-      font-size: 0.3em; }
 
   .top-wrapper h1 {
     font-size: 2em; }
@@ -23,14 +19,7 @@
   .message-wrapper p {
     text-align: center; }
 
-  .footer-container {
-    height: 50px; }
-    .footer-container .logo img {
-      height: 0.1em; }
-    .footer-container .logo p {
-      font-size: 0.3em; }
-    .footer-container .copyright {
-      font-size: 0.3em;
-      margin-top: 1em; } }
+  .copyright {
+    font-size: 0.1em; } }
 
 /*# sourceMappingURL=responsive.css.map */

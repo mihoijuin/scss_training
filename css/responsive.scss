@@ -1,23 +1,13 @@
 @media(max-width: 670px) {
-  @mixin topbottom {
-    height: 50px;
-    .logo {
-      img {
-        height: 0.1em;
-      }
-      p {
-        font-size: 0.3em;
-      }
+
+  header, footer {
+    img {
+      height: 4.5em;
     }
   }
-
   p {
     text-align: left;
     font-size: 0.9em;
-  }
-
-  .header-container {
-    @include topbottom;
   }
 
   .top-wrapper {
@@ -44,11 +34,8 @@
     }
   }
 
-  .footer-container {
-    @include topbottom;
-    .copyright {
-      font-size: 0.3em;
-      margin-top: 1em;
-    }
+  .copyright {
+    font-size: 0.1em;
   }
+
 }
